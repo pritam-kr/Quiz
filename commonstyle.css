@@ -12,11 +12,97 @@
   font-family: "Open Sans", sans-serif;
 }
 
+html {
+  font-size: 67%;
+}
+
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 60%;
+  }
+}
+
 :root {
   --primary-color: #141e2c;
   --secondary-bg: #0b121b;
+  --correct-ans: #007953;
+  --wrong-ans: #af1615;
+}
+
+body {
+  background-color: var(--primary-color);
 }
 
 li {
   list-style-type: none;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.links {
+  color: var(--text-color);
+  font-size: large;
+}
+.links:hover {
+  color: var(--text-color);
+}
+
+.large-heading {
+  width: fit-content;
+  margin: 2rem 0;
+  font-size: 3rem;
+  color: var(--text-color);
+}
+
+.material-icons-outlined {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.next {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.question-container {
+  margin: 0 auto;
+  max-width: 600px;
+  color: var(--text-color);
+  padding: 1rem;
+}
+
+.questions-wrapper {
+  margin-top: 2rem;
+}
+
+.question-lists {
+  margin-top: 2rem;
+}
+.option {
+  cursor: pointer;
+  justify-content: flex-start;
+  padding: 1.5rem;
+  margin-bottom: 0.7rem;
+  background-color: var(--secondary-bg);
+  border-radius: 5rem;
+  transition: 0.3s all;
+}
+.option:hover {
+  background-color: #1c3353;
+}
+
+.quit {
+  font-size: large;
+  color: var(--wrong-ans);
+}
+
+.right {
+  background-color: var(--correct-ans);
+}
+.wrong {
+  background-color: var(--wrong-ans);
 }
