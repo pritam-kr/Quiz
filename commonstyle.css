@@ -27,6 +27,7 @@ html {
   --secondary-bg: #0b121b;
   --correct-ans: #007953;
   --wrong-ans: #af1615;
+  --hover-bg: #1c3353;
 }
 
 body {
@@ -35,6 +36,18 @@ body {
 
 .mb {
   margin-bottom: 1rem;
+}
+
+.nav {
+  display: flex;
+  color: var(--text-color);
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem 1rem 5rem;
+  border-bottom: 1px solid;
+}
+.profile {
+  cursor: pointer;
 }
 
 .links {
@@ -64,6 +77,8 @@ body {
   cursor: pointer;
 }
 
+
+
 .question-container {
   margin: 0 auto;
   max-width: 600px;
@@ -88,7 +103,7 @@ body {
   transition: 0.3s all;
 }
 .option:hover {
-  background-color: #1c3353;
+  background-color: var(--hover-bg);
 }
 
 .quit {
@@ -101,4 +116,10 @@ body {
 }
 .wrong {
   background-color: var(--wrong-ans);
+}
+
+.github-logo{
+  width: 3rem;
+  height: 3rem;
+  margin: 2rem 0;
 }
