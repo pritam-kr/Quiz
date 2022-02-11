@@ -4,17 +4,7 @@ body {
   background-color: var(--primary-color);
 }
 
-.nav{
-  display: flex;
-  color: var(--text-color);
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 5rem 1rem 5rem; 
-  border-bottom: 1px solid ;
-}
-.profile{
-  cursor: pointer;
-}
+
 .container {
   margin-top: 2rem;
   min-height: auto;
@@ -58,3 +48,4 @@ body {
 .blub-gif {
   width: 30px;
 }
+
