@@ -6,7 +6,10 @@
 
 - HTML
 - CSS
-- JavaScript <br>
+- JavaScript <br><br>
+
+### Demo:-
+![demo](/assets/demo.gif)
 
 ### Features :-
 
