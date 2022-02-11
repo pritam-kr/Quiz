@@ -33,10 +33,6 @@ body {
   background-color: var(--primary-color);
 }
 
-li {
-  list-style-type: none;
-}
-
 .mb {
   margin-bottom: 1rem;
 }
