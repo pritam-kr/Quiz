@@ -30,7 +30,7 @@ html {
   --hover-bg: #1c3353;
 }
 
-body {
+.body {
   background-color: var(--primary-color);
 }
 
