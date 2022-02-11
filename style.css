@@ -1,52 +1,51 @@
 @import url(/commonstyle.css);
 
-
-.large-heading{
-    width: fit-content;
-    margin-bottom: 2rem;
-    font-size: 3rem;
-    color: var(--text-color);
+body {
+  background-color: var(--primary-color);
 }
 
-.container{
-    background-color: var(--primary-color);
-    min-height: 100vh;
-    flex-direction: column;
+
+.container {
+  margin-top: 2rem;
+  min-height: auto;
+  flex-direction: column;
 }
-.quiz-home-wrapper{
-    margin: 0 1em;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+.quiz-home-wrapper {
+  margin: 0 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
-.images-card{
-    box-sizing: var(--box-shadow);
-    border-radius: 1rem;
-    background-color: var(--secondary-bg);
-    max-width: 400px;
+.images-card {
+  box-sizing: var(--box-shadow);
+  border-radius: 1rem;
+  background-color: var(--secondary-bg);
+  max-width: 400px;
 }
-.images-card img{
-    border-radius: 1rem;
+.images-card img {
+  border-radius: 1rem;
 }
-.card-content{
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    padding: 1.5rem;
-    text-align: center;
-     color: #fff;
-    background-color: var(--secondary-bg);
+.card-content {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--text-color);
+  background-color: var(--secondary-bg);
 }
-.card-title, .card-text{
-    color: var(--text-color);
+.card-title,
+.card-text {
+  color: var(--text-color);
 }
 
- .btn-play{
-     padding: 0.5em 1.5em;
-    margin: 1rem 0;
+.btn-play {
+  padding: 0.5em 1.5em;
+  margin: 1rem 0;
 }
 
-.blub-gif{
-    width: 30px;
+.blub-gif {
+  width: 30px;
 }
+

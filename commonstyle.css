@@ -12,11 +12,114 @@
   font-family: "Open Sans", sans-serif;
 }
 
+html {
+  font-size: 67%;
+}
+
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 60%;
+  }
+}
+
 :root {
   --primary-color: #141e2c;
   --secondary-bg: #0b121b;
+  --correct-ans: #007953;
+  --wrong-ans: #af1615;
+  --hover-bg: #1c3353;
 }
 
-li {
-  list-style-type: none;
+.body {
+  background-color: var(--primary-color);
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.nav {
+  display: flex;
+  color: var(--text-color);
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem 1rem 5rem;
+  border-bottom: 1px solid;
+}
+.profile {
+  cursor: pointer;
+}
+
+.links {
+  color: var(--text-color);
+  font-size: large;
+}
+.links:hover {
+  color: var(--text-color);
+}
+
+.large-heading {
+  width: fit-content;
+  margin: 2rem 0;
+  font-size: 3rem;
+  color: var(--text-color);
+}
+
+.material-icons-outlined {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.next {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+
+
+.question-container {
+  margin: 0 auto;
+  max-width: 600px;
+  color: var(--text-color);
+  padding: 1rem;
+}
+
+.questions-wrapper {
+  margin-top: 2rem;
+}
+
+.question-lists {
+  margin-top: 2rem;
+}
+.option {
+  cursor: pointer;
+  justify-content: flex-start;
+  padding: 1.5rem;
+  margin-bottom: 0.7rem;
+  background-color: var(--secondary-bg);
+  border-radius: 5rem;
+  transition: 0.3s all;
+}
+.option:hover {
+  background-color: var(--hover-bg);
+}
+
+.quit {
+  font-size: large;
+  color: var(--wrong-ans);
+}
+
+.correct-ans {
+  background-color: var(--correct-ans);
+}
+.wrong-ans {
+  background-color: var(--wrong-ans);
+}
+
+.github-logo{
+  width: 3rem;
+  height: 3rem;
+  margin: 2rem 0;
 }
