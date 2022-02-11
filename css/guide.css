@@ -1,23 +1,26 @@
 @import url(/commonstyle.css);
- 
 
-.container{
-    flex-direction: column;
-}
- 
-
-.lists{
-    color: var(--text-color);
-    margin: 0.5rem 0;
-}
-.guide-container{
-    flex-direction: column;
-    text-align: center;
-    margin-top: 1rem;
-    padding: 1rem;
-}
-.guide-container img{
-    margin-top: 2rem;
-    width: 12rem;
+.container {
+  flex-direction: column;
 }
 
+.lists {
+  color: var(--text-color);
+  margin: 0.5rem 0;
+}
+.guide-container {
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem 0.5rem 0 0.5rem;
+}
+.guide-container img {
+  margin-top: 2rem;
+  width: 12rem;
+}
+
+@media screen and (max-width: 767px) {
+  .guide-container .lists {
+    font-size: 1.9rem;
+  }
+}
