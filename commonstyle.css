@@ -111,10 +111,10 @@ html {
   color: var(--wrong-ans);
 }
 
-.right {
+.correct-ans {
   background-color: var(--correct-ans);
 }
-.wrong {
+.wrong-ans {
   background-color: var(--wrong-ans);
 }
 
